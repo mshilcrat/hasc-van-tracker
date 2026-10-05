@@ -43,6 +43,7 @@ button{cursor:pointer;border:0;background:none;touch-action:manipulation;-webkit
 .task{width:100%;min-height:clamp(110px,16vh,150px);background:var(--card);border:2px solid var(--line);border-radius:26px;padding:20px;display:flex;align-items:center;gap:18px;text-align:left;box-shadow:0 10px 26px rgba(16,51,58,.07)}
 .task .ic{width:72px;height:72px;border-radius:22px;display:flex;align-items:center;justify-content:center;flex:none}
 .task .ic.y{background:var(--yellow);color:var(--yellowInk)}
+.task .ic.d{background:var(--deep);color:#fff}
 .task .ic.t{background:var(--brand);color:#06363c}
 .task .tt{font-size:23px;font-weight:800;line-height:1.2}
 .task .ts{font-size:16px;font-weight:700;color:var(--muted);margin-top:6px}
@@ -120,6 +121,7 @@ button{cursor:pointer;border:0;background:none;touch-action:manipulation;-webkit
 .tbl{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden}
 .tr{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:8px;padding:12px 14px;border-bottom:1px solid var(--line);font-size:14px;align-items:center}
 .tr:last-child{border-bottom:0}
+.tbl.c4 .tr{grid-template-columns:1.05fr 1fr 1fr 1fr;gap:6px;font-size:13px;padding:12px 10px}
 .tr.th{font-size:13px;font-weight:800;color:var(--muted);background:var(--bg)}
 .tr .n{font-weight:800}
 .tr .s{font-weight:800}
